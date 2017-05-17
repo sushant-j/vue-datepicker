@@ -1,0 +1,24 @@
+{
+  "name": "vue-datepicker-c",
+  "version": "1.0.0",
+  "description": "A lightweight datepicker for VueJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sushant-j/vue-datepicker.git"
+  },
+  "keywords": [
+    "datepicker",
+    "vuejs",
+    "vue-datepicker"
+  ],
+  "author": "Sushant J",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sushant-j/vue-datepicker/issues"
+  },
+  "homepage": "https://github.com/sushant-j/vue-datepicker#readme"
+}
