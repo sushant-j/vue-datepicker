@@ -18,6 +18,9 @@ vue-datepicker
 ```
 
 ```html
+<!-- Needed syntax -->
+  <mz-datepicker format="yyyy-MM-dd" :start-time.sync="startTime" :end-time.sync="endTime" range en confirm :on-confirm="confrim"></mz-datepicker>
+
 <!--base-->
 <mz-datepicker></mz-datepicker>
 

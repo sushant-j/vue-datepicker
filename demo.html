@@ -10,7 +10,8 @@
     <div>StartTime:{{startTime}}</div>
     <div>EndTime:{{endTime}}</div>
     <div>Time:{{time}}</div>
-    <mz-datepicker en></mz-datepicker>
+    <mz-datepicker format="yyyy-MM-dd" :start-time.sync="'2017-05-17'" :end-time.sync="'2017-05-25'" max-range="10" en></mz-datepicker>
+    <!-- <mz-datepicker en></mz-datepicker> -->
     <mz-datepicker format="yyyy-MM-dd" :start-time.sync="startTime" :end-time.sync="endTime" range en confirm :on-confirm="confrim"></mz-datepicker>
     <mz-datepicker format="yyyy-MM-dd HH:mm:ss" clearable :time.sync="time"></mz-datepicker>
     <mz-datepicker disabled></mz-datepicker>
